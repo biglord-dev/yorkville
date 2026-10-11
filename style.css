@@ -1,0 +1,61 @@
+:root {
+  --ff: "Inter", sans-serif;
+  --orange: hsl(35, 77%, 62%);
+  --red: hsl(5, 85%, 63%);
+  --offWhite: hsl(36, 100%, 99%);
+  --grayBlue: hsl(233, 8%, 79%);
+  --darkBlue: hsl(236, 13%, 42%);
+  --veryDarkBlue: hsl(240, 100%, 5%);
+  --fsPara: 15px;
+  --fw1: 400;
+  --fw2: 700;
+  --fw3: 800;
+}
+body {
+  font-family: var(--ff) !important;
+}
+a {
+  text-decoration: none !important;
+  color: var(--darkBlue) !important;
+}
+@media (max-width:425px) {
+  a{
+    color: var(--veryDarkBlue)!important;
+  }
+}
+button {
+  background-color: var(--red)!important;
+  border: none ;
+  padding: 10px 5px;
+  width: 55%;
+}
+@media (max-width:425px) {
+  a {
+    color:var(--veryDarkBlue) !important;
+  }
+}
+.header-1 {
+  color: var(--veryDarkBlue);
+  font-size: 4rem !important;
+  font-weight: 1000;
+  width: 500px;
+}
+.header-para{
+  font-size: var(--fsPara);
+  width: 38%;
+  font-size: 1.2rem;
+
+}
+.header-para p{
+  line-height: 1.6rem;
+  color: var(--darkBlue);
+}
+.cont-2 {
+  background-color: var(--veryDarkBlue) !important;
+}
+.cont-container{
+  color: var(--offWhite);
+}
+.cont-2 h1{
+  color: var(orange);
+}
